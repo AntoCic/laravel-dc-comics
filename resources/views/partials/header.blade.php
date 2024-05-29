@@ -7,6 +7,8 @@
             </div>
             <div class="col-auto">
                 <a class="btn btn-outline-primary ms-2" href="{{ route('home') }}">Home</a>
+                <a class="btn btn-outline-primary ms-2" href="{{ route('comics.index') }}">comics</a>
+                <a class="btn btn-outline-primary ms-2" href="{{ route('comics.create') }}">ADD</a>
             </div>
         </div>
        
