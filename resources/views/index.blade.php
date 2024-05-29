@@ -9,7 +9,7 @@
             <h1>Home</h1>
         </div>
         <p class="bg-dark text-white p-5 text-center rounded">
-            {{ $data }}
+            @dump($data)
         </p>
     </div>
 </div>
